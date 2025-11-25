@@ -59,7 +59,7 @@ body {
 .navbar {
     background: white !important;
     box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-    padding: 18px 0;
+    padding: 20px 0;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -67,7 +67,7 @@ body {
 }
 
 .navbar.scrolled {
-    padding: 10px 0;
+    padding: 12px 0;
     box-shadow: 0 4px 30px rgba(0,0,0,0.15);
 }
 
@@ -305,11 +305,11 @@ body {
 .important-notice {
     background: linear-gradient(135deg, #fff8f0, #ffffff);
     border-left: 5px solid var(--secondary-color);
-    padding: 20px 25px;
-    margin: 40px 0;
+    padding: 25px 35px;
+    margin: 50px 0;
     box-shadow: 0 5px 20px rgba(0,0,0,0.08);
     animation: slideIn 0.8s ease;
-    border-radius: 10px;
+    border-radius: 15px;
     position: relative;
     overflow: hidden;
 }
@@ -352,12 +352,12 @@ body {
 }
 
 .section-title {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: bold;
     color: var(--secondary-color);
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     position: relative;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 .section-title::after {
@@ -379,8 +379,8 @@ body {
 
 .service-card {
     background: white;
-    border-radius: 15px;
-    padding: 35px 25px;
+    border-radius: 20px;
+    padding: 45px 30px;
     text-align: center;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     box-shadow: 0 5px 20px rgba(0,0,0,0.08);
@@ -414,9 +414,9 @@ body {
 }
 
 .service-card i {
-    font-size: 4rem;
+    font-size: 4.5rem;
     color: var(--primary-color);
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -431,9 +431,9 @@ body {
 
 .service-card h5 {
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     color: var(--text-dark);
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     transition: color 0.3s ease;
 }
 
@@ -466,9 +466,9 @@ body {
 
 .info-box {
     background: white;
-    padding: 40px;
-    border-radius: 15px;
-    margin-bottom: 30px;
+    padding: 50px;
+    border-radius: 20px;
+    margin-bottom: 40px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.08);
     border-left: 5px solid var(--primary-color);
     transition: all 0.3s ease;
@@ -482,8 +482,8 @@ body {
 .info-box h3 {
     color: var(--primary-color);
     font-weight: bold;
-    margin-bottom: 25px;
-    font-size: 1.4rem;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
 }
 
 .info-box h3 i {
@@ -497,7 +497,7 @@ body {
 }
 
 .info-box ul li {
-    padding: 12px 0;
+    padding: 15px 0;
     border-bottom: 1px solid #e9ecef;
     transition: all 0.3s ease;
 }
@@ -530,7 +530,7 @@ body {
 .stats-section {
     background: var(--bg-gradient);
     color: white;
-    padding: 80px 0;
+    padding: 100px 0;
     position: relative;
     overflow: hidden;
 }
@@ -566,7 +566,7 @@ body {
 
 .stat-box {
     text-align: center;
-    padding: 30px 20px;
+    padding: 40px 25px;
     position: relative;
     z-index: 1;
     transition: transform 0.3s ease;
@@ -602,8 +602,8 @@ body {
 
 .payment-section {
     background: white;
-    padding: 50px;
-    border-radius: 20px;
+    padding: 60px;
+    border-radius: 25px;
     box-shadow: 0 10px 40px rgba(0,0,0,0.1);
     border: 1px solid #e9ecef;
     transition: all 0.3s ease;
@@ -614,7 +614,7 @@ body {
 }
 
 .payment-section .btn {
-    margin: 10px 5px;
+    margin: 12px 8px;
     font-size: 1.05rem;
     transition: all 0.3s ease;
 }
@@ -622,7 +622,7 @@ body {
 footer {
     background: linear-gradient(135deg, #0d47a1, #1976d2);
     color: white;
-    padding: 60px 0 0;
+    padding: 80px 0 0;
     position: relative;
     overflow: hidden;
 }
@@ -642,10 +642,10 @@ footer::before {
 footer h5 {
     color: white;
     font-weight: bold;
-    margin-bottom: 25px;
-    font-size: 1.3rem;
+    margin-bottom: 30px;
+    font-size: 1.35rem;
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 footer h5::after {
@@ -661,9 +661,9 @@ footer h5::after {
 .developer-credit {
     background: linear-gradient(135deg, rgba(255, 111, 0, 0.15), rgba(255, 143, 0, 0.1));
     border-left: 5px solid var(--secondary-color);
-    padding: 30px;
-    margin-top: 40px;
-    border-radius: 10px;
+    padding: 40px;
+    margin-top: 50px;
+    border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     position: relative;
     z-index: 1;
@@ -741,8 +741,8 @@ footer ul li i {
 
 .footer-bottom {
     background: rgba(0,0,0,0.3);
-    padding: 25px 0;
-    margin-top: 40px;
+    padding: 30px 0;
+    margin-top: 50px;
     text-align: center;
     border-top: 1px solid rgba(255,255,255,0.1);
 }
@@ -753,11 +753,17 @@ footer ul li i {
 }
 
 section {
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 .bg-light-section {
     background: var(--bg-light);
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 1200px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -783,6 +789,22 @@ section {
     }
     
     section {
-        padding: 50px 0;
+        padding: 60px 0;
+    }
+    
+    .service-card {
+        padding: 35px 25px;
+    }
+    
+    .info-box {
+        padding: 35px;
+    }
+    
+    .payment-section {
+        padding: 40px 25px;
+    }
+    
+    footer {
+        padding: 50px 0 0;
     }
 }
