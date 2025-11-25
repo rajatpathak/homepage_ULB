@@ -46,7 +46,7 @@
             <circle cx="12" cy="12" r="10"></circle>
             <polyline points="12 6 12 12 16 14"></polyline>
           </svg>
-          <span id="current-time">Loading...</span>
+          <span>6:51:07 am</span>
         </div>
         <div class="info-item">
           <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -55,7 +55,7 @@
             <line x1="8" y1="2" x2="8" y2="6"></line>
             <line x1="3" y1="10" x2="21" y2="10"></line>
           </svg>
-          <span id="current-date">Loading...</span>
+          <span>Tue, 25 Nov 2025</span>
         </div>
       </div>
     </div>
@@ -506,27 +506,5 @@
     </div>
   </footer>
 
-  <script>
-    // Simple time and date update
-    function updateTime() {
-      const now = new Date();
-      const timeEl = document.getElementById('current-time');
-      const dateEl = document.getElementById('current-date');
-      
-      const hours = now.getHours();
-      const minutes = now.getMinutes().toString().padStart(2, '0');
-      const seconds = now.getSeconds().toString().padStart(2, '0');
-      const ampm = hours >= 12 ? 'pm' : 'am';
-      const displayHours = hours % 12 || 12;
-      
-      if (timeEl) timeEl.textContent = `${displayHours}:${minutes}:${seconds} ${ampm}`;
-      
-      const options = { weekday: 'short', day: '2-digit', month: 'short', year: 'numeric' };
-      if (dateEl) dateEl.textContent = now.toLocaleDateString('en-GB', options);
-    }
-    
-    updateTime();
-    setInterval(updateTime, 1000);
-  </script>
 </body>
 </html>
