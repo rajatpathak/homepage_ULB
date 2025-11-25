@@ -6,6 +6,20 @@ This is a civic administration web portal for Sheohar Nagar Parishad (Municipal 
 
 The application provides real-time information such as local weather conditions, air quality index (AQI), and municipal announcements. It acts as a comprehensive digital interface between the municipal administration and citizens.
 
+## Recent Changes
+
+**November 25, 2025 - Design Enhancement Update:**
+- Enhanced CSS with modern animations, transitions, and improved spacing throughout the website
+- Redesigned header with sticky navigation that shrinks on scroll
+- Updated button designs with gradient backgrounds and smooth hover effects (rounded pill-shaped buttons)
+- Improved service cards with enhanced hover effects, icon animations, and better visual feedback
+- Enhanced footer with gradient background, improved organization, and animated link interactions
+- Added smooth scroll behavior and modern UI interactions via `enhanced.js`
+- Implemented IntersectionObserver for scroll-based animations on service cards, info boxes, and statistics
+- Added animated counter for statistics section with smooth number increments
+- Improved spacing, shadows, and visual hierarchy across all sections
+- Enhanced important notice section with gradient background and pulsing badge animation
+
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
@@ -18,7 +32,8 @@ Preferred communication style: Simple, everyday language.
 - **Framework:** Static HTML5 with no JavaScript framework dependencies
 - **Styling:** Bootstrap 5.3.0 (CDN) for responsive grid system and components
 - **Icons:** Font Awesome 6.4.0 (CDN) for consistent iconography
-- **Custom CSS:** Clean, minimal custom CSS in `assets/css/style.css` for branding and theme customization
+- **Custom CSS:** Enhanced CSS in `assets/css/style.css` with modern animations, gradients, and transitions
+- **Custom JavaScript:** `assets/js/enhanced.js` for scroll effects, smooth animations, and interactive UI elements
 
 **Design Decisions:**
 - **Multi-Page Static Website:** Traditional HTML pages for simplicity, fast loading, and easy maintenance
@@ -29,11 +44,17 @@ Preferred communication style: Simple, everyday language.
 
 **Key Features:**
 - Hero banner with Bootstrap carousel showcasing 5 AI-generated images of Sheohar
-- Comprehensive citizen services section with 12+ municipal services
+- Sticky navigation header that shrinks on scroll for better usability
+- Comprehensive citizen services section with 12+ animated service cards
+- Modern gradient buttons with smooth hover animations and transitions
+- Scroll-based animations using IntersectionObserver for progressive content reveal
+- Animated statistics counter that increments smoothly when scrolled into view
 - Online payment integration with Bihar government portals
 - Contact information and external links to Bihar state services
 - Real-time date/time display using vanilla JavaScript
-- Smooth animations and hover effects for better user experience
+- Enhanced hover effects, shadows, and visual feedback throughout the interface
+- Smooth scroll behavior for anchor links
+- Professional gradient backgrounds on top bar, footer, and statistics section
 
 ### Build and Development Configuration
 
@@ -51,7 +72,12 @@ Preferred communication style: Simple, everyday language.
 ├── contact.html            # Contact information and ward details
 └── assets/
     ├── css/
-    │   └── style.css       # Custom styling and theme variables
+    │   └── style.css       # Enhanced custom styling with animations and modern effects
+    ├── js/
+    │   ├── enhanced.js     # Scroll effects, animations, and UI interactions
+    │   ├── main.js         # Main application logic (if needed)
+    │   ├── api.js          # API integration handlers (if needed)
+    │   └── validations.js  # Form validation utilities (if needed)
     └── images/
         ├── sheohar_city_overview_banner.png
         ├── development_infrastructure_work_banner.png
