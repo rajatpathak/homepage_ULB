@@ -1,15 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
   Building2,
   FileText,
-  Users,
   Phone,
   Mail,
   MapPin,
   Clock,
   CreditCard,
   Download,
-  Eye,
   AlertCircle,
   Droplets,
   ShoppingBag,
