@@ -1,172 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Services - Sheohar Nagar Parishad</title>
-  <meta name="description" content="Access online citizen services including property tax, water bills, certificates, and more at Sheohar Nagar Parishad.">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/responsive.css">
-  <link rel="stylesheet" href="assets/css/utils.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Sheohar Nagar Parishad</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <!-- Top Info Bar - Same as index.html -->
-  <div class="top-bar">
-    <div class="container">
-      <div class="info-left">
-        <div class="info-item">
-          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-            <circle cx="12" cy="10" r="3"></circle>
-          </svg>
-          <span>Sheohar, Bihar</span>
+    
+    <div class="top-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <i class="fas fa-map-marker-alt"></i> Sheohar, Bihar &nbsp;&nbsp;
+                    <i class="fas fa-thermometer-half"></i> 24°C Clear Sky &nbsp;&nbsp;
+                    <i class="fas fa-smog"></i> AQI: 152 (Poor)
+                </div>
+                <div class="col-md-6 text-end">
+                    <i class="fas fa-clock"></i> <span id="datetime"></span>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="info-right">
-        <div class="info-item time-box">
-          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <circle cx="12" cy="12" r="10"></circle>
-            <polyline points="12 6 12 12 16 14"></polyline>
-          </svg>
-          <span>6:51:07 am</span>
-        </div>
-      </div>
     </div>
-  </div>
 
-  <!-- Header -->
-  <header class="header">
-    <div class="container">
-      <div class="header-content">
-        <div class="logo-section">
-          <div class="logo">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-              <polyline points="9 22 9 12 15 12 15 22"></polyline>
-            </svg>
-          </div>
-          <div class="logo-text">
-            <h1>Sheohar Nagar Parishad</h1>
-            <p>Government of Bihar</p>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-home-lg-alt"></i>
+                <div>
+                    <div>Sheohar Nagar Parishad</div>
+                    <small style="font-size: 0.6em; color: #666;">Government of Bihar</small>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-login" href="#"><i class="fas fa-user"></i> Citizen Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-admin" href="#"><i class="fas fa-user-shield"></i> Admin Login</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <nav class="nav">
-          <a href="index.html" class="nav-link">Home</a>
-          <a href="services.html" class="nav-link active">Services</a>
-          <a href="about.html" class="nav-link">About Us</a>
-          <a href="contact.html" class="nav-link">Contact</a>
-        </nav>
-        <div class="header-buttons">
-          <button class="btn btn-primary">Citizen Login</button>
-          <button class="btn btn-dark">Admin Login</button>
-        </div>
-      </div>
-    </div>
-  </header>
+    </nav>
 
-  <!-- Page Header -->
-  <section class="hero" style="min-height: 20rem;">
-    <div class="hero-overlay"></div>
-    <div class="container hero-content">
-      <h2 class="hero-title">Our Services</h2>
-      <p class="hero-subtitle">Comprehensive online services for all your municipal needs</p>
-    </div>
-  </section>
-
-  <!-- Main Content -->
-  <main class="main-content">
-    <div class="container">
-      <!-- All Services Section -->
-      <section class="section card">
-        <h3 class="section-title">All Citizen Services</h3>
-        <p class="text-center" style="max-width: 800px; margin: 0 auto var(--spacing-xl); color: var(--color-gray-600);">
-          Access all municipal services digitally from the comfort of your home. We provide easy, secure, and transparent online services.
-        </p>
-        <div class="services-grid">
-          <!-- All 8 services -->
-          <div class="service-card">
-            <div class="service-icon icon-orange">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                <polyline points="9 22 9 12 15 12 15 22"></polyline>
-              </svg>
-            </div>
-            <p class="service-label">Property Tax</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon icon-blue">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
-              </svg>
-            </div>
-            <p class="service-label">Water & Sewerage</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon icon-green">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
-                <line x1="3" y1="6" x2="21" y2="6"></line>
-              </svg>
-            </div>
-            <p class="service-label">Trade Licence</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon icon-pink">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
-              </svg>
-            </div>
-            <p class="service-label">Birth Certificate</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon icon-red">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
-              </svg>
-            </div>
-            <p class="service-label">Death Certificate</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon icon-purple">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect>
-              </svg>
-            </div>
-            <p class="service-label">Building Plan</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon icon-yellow">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <polyline points="3 6 5 6 21 6"></polyline>
-                <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
-              </svg>
-            </div>
-            <p class="service-label">Waste Management</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon icon-indigo">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-              </svg>
-            </div>
-            <p class="service-label">Grievance</p>
-          </div>
+    <section class="bg-light-section" style="padding: 60px 0 30px;">
+        <div class="container">
+            <h1 class="section-title text-center">Citizen Services</h1>
+            <p class="text-center text-muted mb-5">Comprehensive municipal services for the citizens of Sheohar</p>
         </div>
-      </section>
-    </div>
-  </main>
+    </section>
 
-  <!-- Footer - Same as index.html -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-bottom">
-        <p>&copy; 2025 Sheohar Nagar Parishad. All rights reserved.</p>
-        <div class="developer-credit">
-          <span>Designed and Developed by</span>
-          <a href="#" class="developer-link">Appentus Technologies</a>
+    <section style="padding: 50px 0;">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <i class="fas fa-home"></i>
+                        <h5>Property Tax</h5>
+                        <p>Pay your property tax online securely and download receipts instantly.</p>
+                        <a href="https://udhd.bihar.gov.in" target="_blank" class="btn btn-primary-custom">Pay Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <i class="fas fa-store"></i>
+                        <h5>Trade License</h5>
+                        <p>Apply for new trade license or renew existing licenses online.</p>
+                        <a href="https://serviceonline.bihar.gov.in" target="_blank" class="btn btn-primary-custom">Apply Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <i class="fas fa-tint"></i>
+                        <h5>Water / Sewerage</h5>
+                        <p>New water connection, sewerage connection, and related services.</p>
+                        <a href="https://serviceonline.bihar.gov.in" target="_blank" class="btn btn-primary-custom">Apply Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <i class="fas fa-baby"></i>
+                        <h5>Birth Certificate</h5>
+                        <p>Register births and obtain birth certificates through Bihar ServicePlus.</p>
+                        <a href="https://serviceonline.bihar.gov.in" target="_blank" class="btn btn-primary-custom">Apply Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <i class="fas fa-cross"></i>
+                        <h5>Death Certificate</h5>
+                        <p>Register deaths and obtain death certificates online.</p>
+                        <a href="https://serviceonline.bihar.gov.in" target="_blank" class="btn btn-primary-custom">Apply Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <h5>Grievance Redressal</h5>
+                        <p>Lodge complaints and track their resolution status online.</p>
+                        <a href="https://jansamadhan.bihar.gov.in" target="_blank" class="btn btn-primary-custom">Lodge Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <i class="fas fa-building"></i>
+                        <h5>Building Plan Approval</h5>
+                        <p>Submit building plans for approval and obtain NOC certificates.</p>
+                        <a href="https://serviceonline.bihar.gov.in" target="_blank" class="btn btn-primary-custom">Apply Now</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <i class="fas fa-recycle"></i>
+                        <h5>Solid Waste Management</h5>
+                        <p>Waste collection services, segregation guidelines, and payment.</p>
+                        <a href="#" class="btn btn-primary-custom">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <i class="fas fa-bell"></i>
+                        <h5>Public Notices</h5>
+                        <p>View all official notifications, tenders, and public announcements.</p>
+                        <a href="#" class="btn btn-primary-custom">View All</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <i class="fas fa-info-circle"></i>
+                        <h5>Right to Information (RTI)</h5>
+                        <p>File RTI applications and access public information transparently.</p>
+                        <a href="https://rtionline.bihar.gov.in" target="_blank" class="btn btn-primary-custom">File RTI</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <i class="fas fa-medkit"></i>
+                        <h5>Health & Sanitation</h5>
+                        <p>Health programs, sanitation services, and disease prevention.</p>
+                        <a href="#" class="btn btn-primary-custom">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h5>Street Light Complaint</h5>
+                        <p>Report non-functional street lights and track repair status.</p>
+                        <a href="https://jansamadhan.bihar.gov.in" target="_blank" class="btn btn-primary-custom">Report Now</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </footer>
+    </section>
+
+    <section class="bg-light-section" style="padding: 60px 0;">
+        <div class="container">
+            <h2 class="section-title text-center">Important External Links</h2>
+            <p class="text-center text-muted mb-5">Quick links to Bihar Government portals and services</p>
+            
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="info-box">
+                        <h3><i class="fas fa-certificate"></i> Certificates</h3>
+                        <ul>
+                            <li><a href="https://serviceonline.bihar.gov.in" target="_blank">Birth Certificate</a></li>
+                            <li><a href="https://serviceonline.bihar.gov.in" target="_blank">Death Certificate</a></li>
+                            <li><a href="https://serviceonline.bihar.gov.in" target="_blank">Caste Certificate</a></li>
+                            <li><a href="https://serviceonline.bihar.gov.in" target="_blank">Income Certificate</a></li>
+                            <li><a href="https://serviceonline.bihar.gov.in" target="_blank">Residential Certificate</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info-box">
+                        <h3><i class="fas fa-file-invoice-dollar"></i> Tenders</h3>
+                        <ul>
+                            <li><a href="https://eproc.bihar.gov.in" target="_blank">Bihar e-Procurement</a></li>
+                            <li><a href="https://udhd.bihar.gov.in/tenders" target="_blank">UDHD Tenders</a></li>
+                            <li><a href="https://gem.gov.in" target="_blank">GeM Portal</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info-box">
+                        <h3><i class="fas fa-landmark"></i> Budget & Finance</h3>
+                        <ul>
+                            <li><a href="https://finance.bihar.gov.in" target="_blank">Bihar State Budget</a></li>
+                            <li><a href="https://udhd.bihar.gov.in" target="_blank">UDHD Budget</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="info-box">
+                        <h3><i class="fas fa-link"></i> Other Services</h3>
+                        <ul>
+                            <li><a href="https://cid.bihar.gov.in" target="_blank">FIR / CID Status</a></li>
+                            <li><a href="https://lrc.bih.nic.in" target="_blank">Bihar Land Records</a></li>
+                            <li><a href="https://sbpdcl.co.in" target="_blank">Electricity Bill Payment</a></li>
+                            <li><a href="https://state.bihar.gov.in/education" target="_blank">Scholarships & Schemes</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>About Us</h5>
+                    <p>Sheohar Nagar Parishad is dedicated to providing transparent, efficient, and citizen-friendly urban governance.</p>
+                    <div class="mt-3">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-youtube fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="https://jansamadhan.bihar.gov.in" target="_blank">Lodge Grievance</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Important Links</h5>
+                    <ul>
+                        <li><a href="https://serviceonline.bihar.gov.in" target="_blank">Bihar ServicePlus</a></li>
+                        <li><a href="https://udhd.bihar.gov.in" target="_blank">UDHD Bihar</a></li>
+                        <li><a href="https://sheohar.nic.in" target="_blank">District Administration</a></li>
+                        <li><a href="https://eproc.bihar.gov.in" target="_blank">e-Procurement</a></li>
+                        <li><a href="https://rtionline.bihar.gov.in" target="_blank">RTI Online</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Contact Info</h5>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Sheohar, Bihar - 843329</li>
+                        <li><i class="fas fa-phone"></i> Helpline: 181</li>
+                        <li><i class="fas fa-envelope"></i> info@sheoharnp.gov.in</li>
+                        <li><i class="fas fa-clock"></i> Mon - Sat: 10 AM - 6 PM</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="mb-0">&copy; 2025 Sheohar Nagar Parishad, Government of Bihar. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function updateDateTime() {
+            const now = new Date();
+            const options = { 
+                weekday: 'short', 
+                year: 'numeric', 
+                month: 'short', 
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            };
+            document.getElementById('datetime').textContent = now.toLocaleDateString('en-US', options);
+        }
+        updateDateTime();
+        setInterval(updateDateTime, 60000);
+    </script>
 </body>
 </html>

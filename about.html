@@ -1,335 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us - Sheohar Nagar Parishad</title>
-  <meta name="description" content="Learn about Sheohar Nagar Parishad's history, vision, leadership and commitment to smart urban governance in Bihar.">
-  
-  <!-- CSS Files -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/responsive.css">
-  <link rel="stylesheet" href="assets/css/utils.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Sheohar Nagar Parishad</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <!-- Top Info Bar -->
-  <div class="top-bar">
-    <div class="container">
-      <div class="info-left">
-        <div class="info-item">
-          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-            <circle cx="12" cy="10" r="3"></circle>
-          </svg>
-          <span>Sheohar, Bihar</span>
+    
+    <div class="top-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <i class="fas fa-map-marker-alt"></i> Sheohar, Bihar &nbsp;&nbsp;
+                    <i class="fas fa-thermometer-half"></i> 24°C Clear Sky &nbsp;&nbsp;
+                    <i class="fas fa-smog"></i> AQI: 152 (Poor)
+                </div>
+                <div class="col-md-6 text-end">
+                    <i class="fas fa-clock"></i> <span id="datetime"></span>
+                </div>
+            </div>
         </div>
-        <div class="info-item">
-          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <circle cx="12" cy="12" r="5"></circle>
-            <line x1="12" y1="1" x2="12" y2="3"></line>
-            <line x1="12" y1="21" x2="12" y2="23"></line>
-          </svg>
-          <span>Sheohar: 24°C Clear Sky</span>
-        </div>
-        <div class="info-item">
-          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2"></path>
-          </svg>
-          <span>AQI: 152 (Poor)</span>
-        </div>
-      </div>
-      <div class="info-right">
-        <div class="info-item time-box">
-          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <circle cx="12" cy="12" r="10"></circle>
-            <polyline points="12 6 12 12 16 14"></polyline>
-          </svg>
-          <span>6:51:07 am</span>
-        </div>
-        <div class="info-item">
-          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-            <line x1="16" y1="2" x2="16" y2="6"></line>
-            <line x1="8" y1="2" x2="8" y2="6"></line>
-            <line x1="3" y1="10" x2="21" y2="10"></line>
-          </svg>
-          <span>Tue, 25 Nov 2025</span>
-        </div>
-      </div>
     </div>
-  </div>
 
-  <!-- Header -->
-  <header class="header">
-    <div class="container">
-      <div class="header-content">
-        <div class="logo-section">
-          <div class="logo">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-              <polyline points="9 22 9 12 15 12 15 22"></polyline>
-            </svg>
-          </div>
-          <div class="logo-text">
-            <h1>Sheohar Nagar Parishad</h1>
-            <p>Government of Bihar</p>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-home-lg-alt"></i>
+                <div>
+                    <div>Sheohar Nagar Parishad</div>
+                    <small style="font-size: 0.6em; color: #666;">Government of Bihar</small>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-login" href="#"><i class="fas fa-user"></i> Citizen Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-admin" href="#"><i class="fas fa-user-shield"></i> Admin Login</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <nav class="nav">
-          <a href="index.html" class="nav-link">Home</a>
-          <a href="services.html" class="nav-link">Services</a>
-          <a href="about.html" class="nav-link active">About Us</a>
-          <a href="contact.html" class="nav-link">Contact</a>
-        </nav>
-        <div class="header-buttons">
-          <button class="btn btn-primary">Citizen Login</button>
-          <button class="btn btn-dark">Admin Login</button>
+    </nav>
+
+    <section class="bg-light-section" style="padding: 60px 0 30px;">
+        <div class="container">
+            <h1 class="section-title text-center">About Sheohar Nagar Parishad</h1>
+            <p class="text-center text-muted mb-5">Committed to Smart, Transparent & Citizen-Friendly Urban Governance</p>
         </div>
-      </div>
-    </div>
-  </header>
+    </section>
 
-  <!-- Page Header -->
-  <section class="hero" style="min-height: 20rem;">
-    <div class="hero-overlay"></div>
-    <div class="container hero-content">
-      <h2 class="hero-title">About Us</h2>
-      <p class="hero-subtitle">Learn about our history, vision, and commitment to excellence in urban governance</p>
-    </div>
-  </section>
+    <section style="padding: 60px 0;">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <h2 class="section-title text-start">Our Mission & Vision</h2>
+                    <p class="lead">Sheohar Nagar Parishad is committed to providing transparent, efficient, and citizen-friendly urban governance to the residents of Sheohar, Bihar.</p>
+                    <p>Our mission is to develop Sheohar as a smart, clean, and sustainable city with modern civic amenities. We strive to enhance the quality of life for our citizens by implementing innovative solutions, maintaining high standards of public services, and promoting participatory governance.</p>
+                </div>
+            </div>
 
-  <!-- Main Content -->
-  <main class="main-content">
-    <div class="container">
-      <!-- About Section -->
-      <section class="section card">
-        <h3 class="section-title">About Sheohar Nagar Parishad</h3>
-        <p class="text-center" style="max-width: 800px; margin: 0 auto var(--spacing-xl); line-height: 1.8; color: var(--color-gray-600);">
-          Sheohar Nagar Parishad, established in 1956, has been at the forefront of providing efficient municipal services to the citizens of Sheohar. With a population of over 45,000 residents spread across 26 wards, we are committed to transforming Sheohar into a model smart city through transparent governance, modern infrastructure, and citizen-centric services.
-        </p>
-        
-        <div class="about-grid">
-          <div class="stats-grid">
-            <div class="stat-card">
-              <div class="stat-value">1956</div>
-              <div class="stat-label">Established</div>
+            <div class="row mb-5">
+                <div class="col-lg-6">
+                    <div class="info-box">
+                        <h3><i class="fas fa-bullseye"></i> Our Objectives</h3>
+                        <ul>
+                            <li>Ensure efficient delivery of essential municipal services</li>
+                            <li>Maintain and develop urban infrastructure</li>
+                            <li>Promote cleanliness and environmental sustainability</li>
+                            <li>Implement digital governance for transparency</li>
+                            <li>Engage citizens in development initiatives</li>
+                            <li>Ensure equitable distribution of resources</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="info-box">
+                        <h3><i class="fas fa-map-marked-alt"></i> Sheohar at a Glance</h3>
+                        <ul>
+                            <li><strong>District:</strong> Sheohar, Bihar</li>
+                            <li><strong>Area:</strong> Municipal Jurisdiction</li>
+                            <li><strong>PIN Code:</strong> 843329</li>
+                            <li><strong>Total Population:</strong> As per latest census</li>
+                            <li><strong>Total Wards:</strong> 15+</li>
+                            <li><strong>Literacy Rate:</strong> As per records</li>
+                            <li><strong>Governance Type:</strong> Nagar Parishad</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="stat-card">
-              <div class="stat-value">26</div>
-              <div class="stat-label">Wards</div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="container">
+            <h2 class="section-title text-center text-white mb-5">Our Achievements</h2>
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <div class="stat-box">
+                        <h2><i class="fas fa-users"></i></h2>
+                        <h2>50,000+</h2>
+                        <p>Citizens Served</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-box">
+                        <h2><i class="fas fa-map-marked"></i></h2>
+                        <h2>15+</h2>
+                        <p>Municipal Wards</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-box">
+                        <h2><i class="fas fa-tasks"></i></h2>
+                        <h2>12+</h2>
+                        <p>Core Services</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-box">
+                        <h2><i class="fas fa-check-circle"></i></h2>
+                        <h2>1000+</h2>
+                        <p>Monthly Transactions</p>
+                    </div>
+                </div>
             </div>
-            <div class="stat-card">
-              <div class="stat-value">45,000+</div>
-              <div class="stat-label">Population</div>
-            </div>
-            <div class="stat-card">
-              <div class="stat-value">100%</div>
-              <div class="stat-label">Digital</div>
-            </div>
-          </div>
-          <div class="about-text">
-            <h4 style="margin-bottom: var(--spacing-md); color: var(--color-gray-900);">Our Vision</h4>
-            <p>To create a clean, green, and digitally empowered urban center that provides world-class civic amenities and ensures quality of life for all citizens through transparent and accountable governance.</p>
+        </div>
+    </section>
+
+    <section class="bg-light-section">
+        <div class="container">
+            <h2 class="section-title text-center">Governance Structure</h2>
+            <p class="text-center text-muted mb-5">Our administrative framework ensuring effective governance</p>
             
-            <h4 style="margin: var(--spacing-lg) 0 var(--spacing-md); color: var(--color-gray-900);">Our Mission</h4>
-            <p>To deliver efficient, responsive, and citizen-friendly municipal services through innovative technology solutions, sustainable development practices, and active citizen participation.</p>
-          </div>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="info-box text-center">
+                        <i class="fas fa-user-tie" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 20px;"></i>
+                        <h3>Chairman</h3>
+                        <p>Executive Head of Nagar Parishad</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="info-box text-center">
+                        <i class="fas fa-users-cog" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 20px;"></i>
+                        <h3>Ward Councillors</h3>
+                        <p>Elected representatives from all wards</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="info-box text-center">
+                        <i class="fas fa-building" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 20px;"></i>
+                        <h3>Administrative Office</h3>
+                        <p>Municipal staff and departments</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </section>
+    </section>
 
-      <!-- Leadership Section -->
-      <section class="section">
-        <h3 class="section-title">Our Leadership</h3>
-        <div class="desk-grid">
-          <div class="card desk-card">
-            <div class="desk-header">
-              <div class="desk-avatar icon-orange">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                  <circle cx="12" cy="7" r="4"></circle>
-                </svg>
-              </div>
-              <div>
-                <h4>Mayor</h4>
-                <p class="desk-name">Shri Rajesh Kumar</p>
-              </div>
+    <section>
+        <div class="container">
+            <h2 class="section-title text-center">Key Initiatives</h2>
+            <p class="text-center text-muted mb-5">Our ongoing projects for urban development</p>
+            
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="service-card text-start">
+                        <i class="fas fa-recycle" style="float: left; margin-right: 20px;"></i>
+                        <h5>Solid Waste Management</h5>
+                        <p>Implementation of modern waste collection, segregation, and disposal systems to keep Sheohar clean and green.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-card text-start">
+                        <i class="fas fa-tint" style="float: left; margin-right: 20px;"></i>
+                        <h5>Water Supply Enhancement</h5>
+                        <p>Upgrading water supply infrastructure to ensure 24x7 clean water supply to all households.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-card text-start">
+                        <i class="fas fa-road" style="float: left; margin-right: 20px;"></i>
+                        <h5>Road Development</h5>
+                        <p>Construction and maintenance of quality roads, streets, and drainage systems across the municipality.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="service-card text-start">
+                        <i class="fas fa-lightbulb" style="float: left; margin-right: 20px;"></i>
+                        <h5>Street Lighting</h5>
+                        <p>Installation of LED street lights for energy efficiency and improved safety in all areas.</p>
+                    </div>
+                </div>
             </div>
-            <p class="desk-message">"My commitment is to serve the citizens of Sheohar with complete transparency, efficiency, and dedication. We are working tirelessly to transform Sheohar into a smart and sustainable city that our future generations will be proud of."</p>
-            <p style="margin-top: var(--spacing-md); color: var(--color-gray-600); font-size: 0.875rem;">Shri Rajesh Kumar brings over 15 years of public service experience and has been instrumental in implementing digital governance initiatives across the municipality.</p>
-          </div>
-          
-          <div class="card desk-card">
-            <div class="desk-header">
-              <div class="desk-avatar icon-blue">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <circle cx="12" cy="8" r="7"></circle>
-                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
-                </svg>
-              </div>
-              <div>
-                <h4>Executive Officer</h4>
-                <p class="desk-name">Smt. Priya Sharma, IAS</p>
-              </div>
-            </div>
-            <p class="desk-message">"We are implementing cutting-edge digital governance solutions to ensure seamless service delivery and meaningful citizen engagement in all municipal operations. Our focus is on making every service accessible, transparent, and efficient."</p>
-            <p style="margin-top: var(--spacing-md); color: var(--color-gray-600); font-size: 0.875rem;">Smt. Priya Sharma is a 2015-batch IAS officer who has successfully led multiple e-governance projects and municipal reform initiatives across Bihar.</p>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <!-- Values Section -->
-      <section class="section card">
-        <h3 class="section-title">Our Core Values</h3>
-        <div class="project-grid">
-          <div class="project-card">
-            <div class="project-icon icon-blue">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-              </svg>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>About Us</h5>
+                    <p>Sheohar Nagar Parishad is dedicated to providing transparent, efficient, and citizen-friendly urban governance.</p>
+                    <div class="mt-3">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-youtube fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="https://jansamadhan.bihar.gov.in" target="_blank">Lodge Grievance</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Important Links</h5>
+                    <ul>
+                        <li><a href="https://serviceonline.bihar.gov.in" target="_blank">Bihar ServicePlus</a></li>
+                        <li><a href="https://udhd.bihar.gov.in" target="_blank">UDHD Bihar</a></li>
+                        <li><a href="https://sheohar.nic.in" target="_blank">District Administration</a></li>
+                        <li><a href="https://eproc.bihar.gov.in" target="_blank">e-Procurement</a></li>
+                        <li><a href="https://rtionline.bihar.gov.in" target="_blank">RTI Online</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Contact Info</h5>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Sheohar, Bihar - 843329</li>
+                        <li><i class="fas fa-phone"></i> Helpline: 181</li>
+                        <li><i class="fas fa-envelope"></i> info@sheoharnp.gov.in</li>
+                        <li><i class="fas fa-clock"></i> Mon - Sat: 10 AM - 6 PM</li>
+                    </ul>
+                </div>
             </div>
-            <h4>Transparency</h4>
-            <p>Complete openness in all municipal operations, financial transactions, and decision-making processes.</p>
-          </div>
-          <div class="project-card">
-            <div class="project-icon icon-green">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <polyline points="20 6 9 17 4 12"></polyline>
-              </svg>
-            </div>
-            <h4>Accountability</h4>
-            <p>Taking full responsibility for our actions and delivering on our commitments to citizens.</p>
-          </div>
-          <div class="project-card">
-            <div class="project-icon icon-purple">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                <circle cx="9" cy="7" r="4"></circle>
-                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-              </svg>
-            </div>
-            <h4>Citizen-Centric</h4>
-            <p>Putting citizens at the heart of everything we do and ensuring accessible, quality services for all.</p>
-          </div>
-          <div class="project-card">
-            <div class="project-icon icon-orange">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
-              </svg>
-            </div>
-            <h4>Innovation</h4>
-            <p>Embracing technology and modern solutions to continuously improve service delivery.</p>
-          </div>
-          <div class="project-card">
-            <div class="project-icon icon-green">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-                <polyline points="7.5 4.21 12 6.81 16.5 4.21"></polyline>
-                <polyline points="7.5 19.79 7.5 14.6 3 12"></polyline>
-                <polyline points="21 12 16.5 14.6 16.5 19.79"></polyline>
-                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                <line x1="12" y1="22.08" x2="12" y2="12"></line>
-              </svg>
-            </div>
-            <h4>Sustainability</h4>
-            <p>Commitment to environmental protection and sustainable development practices.</p>
-          </div>
-          <div class="project-card">
-            <div class="project-icon icon-red">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
-              </svg>
-            </div>
-            <h4>Excellence</h4>
-            <p>Striving for the highest standards in all our services and operations.</p>
-          </div>
         </div>
-      </section>
-    </div>
-  </main>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-section">
-          <h4>Contact Information</h4>
-          <div class="footer-contact">
-            <div class="contact-item">
-              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                <circle cx="12" cy="10" r="3"></circle>
-              </svg>
-              <span>Sheohar Nagar Parishad Office, Main Road, Sheohar - 843329, Bihar</span>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="mb-0">&copy; 2025 Sheohar Nagar Parishad, Government of Bihar. All Rights Reserved.</p>
             </div>
-            <div class="contact-item">
-              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-              </svg>
-              <span>Helpline: 181 | Office: +91-6274-252001</span>
-            </div>
-            <div class="contact-item">
-              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                <polyline points="22,6 12,13 2,6"></polyline>
-              </svg>
-              <span>sheohar.np@bihar.gov.in</span>
-            </div>
-          </div>
         </div>
+    </footer>
 
-        <div class="footer-section">
-          <h4>Quick Links</h4>
-          <ul class="footer-links">
-            <li><a href="#">UDHD Bihar</a></li>
-            <li><a href="#">District Portal</a></li>
-            <li><a href="#">RTI Portal</a></li>
-            <li><a href="#">Citizen Charter</a></li>
-            <li><a href="#">Tenders & Notices</a></li>
-            <li><a href="#">Photo Gallery</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-section">
-          <h4>Important Links</h4>
-          <ul class="footer-links">
-            <li><a href="#">Ministry of Urban Development</a></li>
-            <li><a href="#">Swachh Bharat Mission</a></li>
-            <li><a href="#">Smart Cities Mission</a></li>
-            <li><a href="#">AMRUT Scheme</a></li>
-            <li><a href="#">PM Awas Yojana</a></li>
-            <li><a href="#">Digital India</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-section">
-          <h4>Portal Statistics</h4>
-          <div class="footer-stats">
-            <div class="footer-stat">
-              <div class="footer-stat-value">12,456</div>
-              <div class="footer-stat-label">Total Visitors</div>
-            </div>
-            <div class="footer-stat">
-              <div class="footer-stat-value">3,789</div>
-              <div class="footer-stat-label">Online Payments</div>
-            </div>
-            <div class="footer-stat">
-              <div class="footer-stat-value">1,234</div>
-              <div class="footer-stat-label">Services Delivered</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <p>&copy; 2025 Sheohar Nagar Parishad. All rights reserved.</p>
-        <div class="developer-credit">
-          <span>Designed and Developed by</span>
-          <a href="#" class="developer-link">Appentus Technologies</a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function updateDateTime() {
+            const now = new Date();
+            const options = { 
+                weekday: 'short', 
+                year: 'numeric', 
+                month: 'short', 
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            };
+            document.getElementById('datetime').textContent = now.toLocaleDateString('en-US', options);
+        }
+        updateDateTime();
+        setInterval(updateDateTime, 60000);
+    </script>
 </body>
 </html>
