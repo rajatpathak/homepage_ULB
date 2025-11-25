@@ -5,16 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sheohar Nagar Parishad - Smart Urban Governance</title>
   <meta name="description" content="Official website of Sheohar Nagar Parishad, Bihar. Access online services, pay property tax, water bills, apply for certificates and more.">
-  
-  <!-- CSS Files -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/responsive.css">
-  <link rel="stylesheet" href="assets/css/utils.css">
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <!-- Header Component (include via server-side or build process) -->
-  <!-- For static HTML, copy content from components/header.html -->
-  
   <!-- Top Info Bar -->
   <div class="top-bar">
     <div class="container">
@@ -85,10 +78,10 @@
           </div>
         </div>
         <nav class="nav">
-          <a href="index.html" class="nav-link active">Home</a>
-          <a href="services.html" class="nav-link">Services</a>
-          <a href="about.html" class="nav-link">About Us</a>
-          <a href="contact.html" class="nav-link">Contact</a>
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#schemes" class="nav-link">Schemes</a>
+          <a href="#about" class="nav-link">About Us</a>
+          <a href="#contact" class="nav-link">Contact</a>
         </nav>
         <div class="header-buttons">
           <button class="btn btn-primary">Citizen Login</button>
@@ -219,6 +212,15 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect>
                 <path d="M9 22v-4h6v4"></path>
+                <path d="M8 6h.01"></path>
+                <path d="M16 6h.01"></path>
+                <path d="M12 6h.01"></path>
+                <path d="M12 10h.01"></path>
+                <path d="M12 14h.01"></path>
+                <path d="M16 10h.01"></path>
+                <path d="M16 14h.01"></path>
+                <path d="M8 10h.01"></path>
+                <path d="M8 14h.01"></path>
               </svg>
             </div>
             <p class="service-label">Building Plan</p>
@@ -242,7 +244,7 @@
           </div>
         </div>
         <div class="section-footer">
-          <a href="services.html" class="btn btn-primary">View All Services</a>
+          <button class="btn btn-primary">View All Services</button>
         </div>
       </section>
 
@@ -266,6 +268,9 @@
             <svg class="announcement-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
               <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
             </svg>
             <div class="announcement-content">
               <h4>E-Tender for Road Construction</h4>
@@ -313,6 +318,7 @@
             <svg class="payment-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
               <line x1="3" y1="6" x2="21" y2="6"></line>
+              <path d="M16 10a4 4 0 0 1-8 0"></path>
             </svg>
             <p>Trade Licence</p>
           </div>
@@ -354,7 +360,7 @@
               </div>
             </div>
             <p class="desk-message">"Our commitment is to serve the citizens of Sheohar with transparency, efficiency, and dedication towards building a smart and sustainable city."</p>
-            <a href="about.html" class="desk-link">Read More →</a>
+            <a href="#" class="desk-link">Read More →</a>
           </div>
           
           <div class="card desk-card">
@@ -371,7 +377,7 @@
               </div>
             </div>
             <p class="desk-message">"We are implementing digital governance solutions to ensure seamless service delivery and citizen engagement in all municipal operations."</p>
-            <a href="about.html" class="desk-link">Read More →</a>
+            <a href="#" class="desk-link">Read More →</a>
           </div>
         </div>
       </section>
@@ -394,6 +400,7 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <circle cx="12" cy="12" r="10"></circle>
                 <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
               </svg>
             </div>
             <h4>LED Street Lights</h4>
@@ -416,7 +423,7 @@
     </div>
   </main>
 
-  <!-- Footer Component -->
+  <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
