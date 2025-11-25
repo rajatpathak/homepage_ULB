@@ -1,0 +1,222 @@
+✅ Sheohar Nagar Parishad – Complete Homepage Requirements (Copy–Paste Ready)
+1️⃣ Hero Banner / Top Section
+
+Title: Sheohar Nagar Parishad
+Subtitle: Committed to Smart, Transparent & Citizen-Friendly Urban Governance
+
+Action Buttons:
+
+Pay Property Tax
+
+Apply for Services
+
+Background: Clean city-themed image or subtle gradient.
+
+2️⃣ Multi-Banner Slider (5 Banners)
+
+Banner 1: Sheohar Town Overview
+
+Banner 2: Development & Infrastructure
+
+Banner 3: Clean & Green Sheohar
+
+Banner 4: Digital Governance & Online Services
+
+Banner 5: Culture & Community of Sheohar
+
+3️⃣ Citizen Services – Quick Links
+
+Property Tax
+
+Trade License
+
+Water / Sewerage
+
+Birth Certificate
+
+Death Certificate
+
+Grievance Redressal
+
+Building Plan Approval
+
+Solid Waste Management
+
+Public Notices
+
+RTI
+
+Health & Sanitation
+
+Street Light Complaint
+
+4️⃣ About Sheohar Nagar Parishad
+
+Short description of the Nagar Parishad including:
+
+Municipal overview
+
+Mission & Vision
+
+Governance Structure
+
+Total wards and administrative coverage
+
+5️⃣ Sheohar at a Glance
+
+District: Sheohar, Bihar
+
+Area: ___ sq. km
+
+Total Population: ___ (as per updated census)
+
+Male Population: ___
+
+Female Population: ___
+
+Households: ___
+
+Total Wards: ___
+
+Literacy Rate: ___
+
+No. of Voters: ___
+
+Male Voters: ___
+
+Female Voters: ___
+
+PIN Code: 843329
+
+(Fill numbers if you provide exact data.)
+
+6️⃣ Online Payments Section
+
+Pay Property Tax
+
+Pay Water Charges
+
+Pay Solid Waste Fees
+
+Download Digital Receipts
+
+Payment Status Tracking
+
+7️⃣ Ward Information
+
+List of all wards
+
+Ward councillor details
+
+Ward map (optional)
+
+Contact numbers
+
+8️⃣ Citizen Corner
+
+Downloads
+
+RTI
+
+Forms
+
+Helpline numbers
+
+Emergency contacts
+
+Disaster Management Cell
+
+Public Health Notices
+
+9️⃣ Photo & Media Gallery
+
+Events
+
+Development work
+
+Festivals
+
+Municipal activities
+
+1️⃣0️⃣ Feedback & Grievance Registration
+
+Lodge Complaint
+
+Track Complaint Status
+
+FAQ / Helpdesk
+
+1️⃣1️⃣ Key Website Links / Redirects (Bihar Government Official Portals)
+A. Tax Related
+
+Pay Property Tax → (UDHD Bihar Portal or civic tax portal)
+
+Download Property Tax Demand → (UDHD / respective portal)
+
+Download Property Tax Receipt → (UDHD / respective portal)
+
+B. Certificates (via Bihar ServicePlus)
+
+(All redirect to official portal)
+
+Birth Certificate → https://serviceonline.bihar.gov.in
+
+Death Certificate → https://serviceonline.bihar.gov.in
+
+Caste Certificate → https://serviceonline.bihar.gov.in
+
+Income Certificate → https://serviceonline.bihar.gov.in
+
+Residential Certificate → https://serviceonline.bihar.gov.in
+
+C. Grievances
+
+Submit Grievance (Jan Samadhan) → https://jansamadhan.bihar.gov.in
+
+CMO Public Grievance Portal → https://cm.bihar.gov.in
+
+Track Grievance → https://jansamadhan.bihar.gov.in
+
+D. Forms & Downloads
+
+Government Forms → https://state.bihar.gov.in
+
+Urban Development Department Forms → https://udhd.bihar.gov.in
+
+E. Budget & Finance
+
+Bihar State Budget → https://finance.bihar.gov.in
+
+UDHD Budget → https://udhd.bihar.gov.in
+
+F. RTI
+
+RTI Info → https://www.biharonline.gov.in/rti
+
+File RTI Online → https://rtionline.bihar.gov.in
+
+G. Contacts (External)
+
+District Administration Sheohar → https://sheohar.nic.in
+
+CMO Bihar → https://cm.bihar.gov.in
+
+UDHD Bihar → https://udhd.bihar.gov.in
+
+H. Tenders
+
+Bihar e-Procurement → https://eproc.bihar.gov.in
+
+UDHD Tenders → https://udhd.bihar.gov.in/tenders
+
+GeM Portal → https://gem.gov.in
+
+I. Popular Bihar Services
+
+FIR / CID Status → https://cid.bihar.gov.in
+
+Bihar Land Records → https://lrc.bih.nic.in
+
+Electricity Bill Payment → https://sbpdcl.co.in
+
+Scholarships & Schemes → https://state.bihar.gov.in/education

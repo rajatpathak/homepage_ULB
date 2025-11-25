@@ -1,0 +1,87 @@
+Homepage Banner Requirements — Sheohar Nagar Parishad
+1. Overview
+
+The homepage should feature multiple high-quality AI-generated banners that visually represent Sheohar, Bihar in a realistic and culturally accurate manner. These banners will enhance the visual appeal and reflect the identity, development, and governance initiatives of the Nagar Parishad.
+
+2. Number of Banners
+
+A total of 5 (five) banners must be created and integrated into the homepage slider.
+
+3. Banner Specifications
+
+Dimensions: 1920 × 720 px (full-width responsive banner)
+
+Style: Realistic, clean, modern, and suitable for a government website
+
+Tone: Professional, civic-oriented, citizen-friendly
+
+Color Palette: Natural tones, greens, blues, soft daylight ambience
+
+Format: High-resolution PNG/JPEG
+
+Usage: Rotating slider with smooth transitions
+
+4. Banner Themes (AI-Generated)
+Banner 1: Sheohar City Overview
+
+Clean road view of Sheohar
+
+Typical Bihar small-town architecture
+
+Greenery, open sky, soft sunlight
+
+Banner 2: Nagar Parishad Development Work
+
+Roads, streetlights, water supply pipelines, drainage work
+
+Municipal workers in action (generic, non-identifiable)
+
+“Urban Development” theme
+
+Banner 3: Clean & Green Sheohar
+
+Parks, plants, tree plantation
+
+Clean streets
+
+Environmental-friendly city theme
+
+Banner 4: Citizen Services & Digital Governance
+
+Illustrations/realistic visuals of smart governance
+
+Online services, digital payments, transparency
+
+Government buildings in the background
+
+Banner 5: Cultural & Community Spirit of Sheohar
+
+Local market street
+
+Cultural moments, people, community interaction
+
+Representing daily life of Sheohar
+
+5. Integration Requirements
+
+Implement banners in a homepage slider
+
+Auto-slide with configurable interval (default: 5 seconds)
+
+Manual left/right navigation arrows
+
+Mobile responsive scaling
+
+Text overlay support (Title, Subtitle, CTA Buttons)
+
+6. Text Overlay (Optional for Each Banner)
+
+Main Title: “Sheohar Nagar Parishad”
+
+Subtext: “Committed to Smart, Transparent & Citizen-Friendly Urban Governance”
+
+Buttons:
+
+Pay Property Tax
+
+Apply for Services
